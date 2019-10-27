@@ -124,10 +124,12 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     Jelly \
     LockClock \
-    Trebuchet \
-    Updater \
     WallpaperPicker \
     WeatherProvider
+
+# Custom omni packages
+PRODUCT_PACKAGES += \
+    Launcher3
 
 # Exchange support
 PRODUCT_PACKAGES += \
